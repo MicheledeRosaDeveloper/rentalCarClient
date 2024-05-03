@@ -1,0 +1,22 @@
+.card-container {
+    display: inline-block; 
+    border-radius: 10px; 
+    overflow: hidden; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .mat-table {
+    width: 100%;
+  }
+  .mat-cell {
+    padding: 8px 16px; 
+  }
+  .mat-header-row, .mat-row {
+    gap: 20px; 
+  }
+  .main-div{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

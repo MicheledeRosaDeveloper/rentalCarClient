@@ -1,0 +1,8 @@
+
+<div *ngIf="isAdmin; else customer">
+    <app-custom-table [columns]="templateColumnsAdmin" [rows]="users"></app-custom-table>
+  </div>
+  
+  <ng-template #customer>
+    <app-custom-table [columns]="templateColumnsUser" [rows]="rentals"></app-custom-table>
+  </ng-template>
